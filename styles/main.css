@@ -1,0 +1,88 @@
+/*Setting default font and box model*/
+body {
+	font-family: 'Arial', sans-serif;
+	margin: 0.1em 5em;
+	box-shadow: 0px 0px 10px 10px black;
+	background-image: url("../images/bats.gif");
+}
+
+/* HEADER */
+/*Set box-model and gradient */
+Header {
+	border: 2px solid black;
+	padding-left: 1em;
+	background-image: linear-gradient(45deg, white 0%, orange 50%, black 100%);
+}
+/*Formatting page logo to left*/
+#Logo {
+	float: left;
+	padding: 5px;
+}
+/*Formatting page title colors, font, and drop shadow*/
+#Title { 
+	color: Black;
+	font-size: 250%;
+	font-style: Bold;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+/*Padding to line up with title*/
+#Slogan {
+	font-size: 135%;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	
+	
+}
+
+/* MAIN */
+/*Set box model and background color */
+main {
+	border: 1px solid black;
+	padding-left: 1em;
+	background-color: white;
+}
+	
+/*Adjusting sizes for heading tags*/
+main h1 {
+	font-size: 150%;
+}
+main h2 {
+	font-size: 130%;
+}
+main h3 {
+	font-size: 110%;
+}
+/*Class to adjust font size of the first letter of text*/
+.capfirst:first-letter {
+	font-size: 250%;
+}
+/*Class to adjust the font of hyperlinks*/
+.categories a:visited, a:link {
+	color: orange;
+	font-weight: bold;
+}
+/*Adjusts the font display when focusing link*/
+.categories a:hover, a:focus {
+	color: green;
+	font-weight: bold;
+}
+/*Adds space between the links*/
+.categories li {
+	padding-bottom: 5px;
+}
+
+/* FOOTER */
+
+/*Set box-model and gradient */
+footer {
+	border: 2px solid black;
+	padding-left: 1em;
+
+	background-image: linear-gradient(45deg, black 0%, orange 50%, white 100%);
+}
+/*Reduce size of footer and center it*/
+footer p {
+	font-size: 80%;
+	text-align: center;
+}
